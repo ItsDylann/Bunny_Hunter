@@ -1,0 +1,11 @@
+name: BunnyMG
+version: '${project.version}'
+main: com.lusionmc.bunnymg.Bunnymg
+api-version: 1.19
+prefix: [ Bunny MG ]
+authors: [ Dylan ]
+description: Bunny Minigame for Ender#2027
+website: Lusionmc.com
+commands:
+  arena:
+

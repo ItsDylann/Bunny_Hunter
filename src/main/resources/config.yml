@@ -1,0 +1,36 @@
+#Required players for game to start
+required-players: 2
+#Time in seconds before game starts
+countdown-seconds: 15
+#Location of the Lobby (where players will be teleported to when they /join and wait in the countdown)
+#This is where players will wait for the game to start
+#Format: world,x,y,z - yaw & pitch are optional, but I suggest you use it so players are facing correct direction.
+#yaw is where the player is facing, pitch is how high/low the player is looking
+lobby-spawn:
+  world: 'world'
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: -100
+  pitch: 0
+#Location of the game (where players will be teleported to when the countdown ends)
+#This is where the game will be played
+#Format: world,x,y,z - yaw & pitch are optional, but I suggest you use it so players are facing correct direction.
+#yaw is where the player is facing, pitch is how high/low the player is looking
+arenas:
+  0:
+    world: 'world'
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    yaw: -100
+    pitch: 0
+  1:
+    world: 'world'
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    yaw: -100
+    pitch: 0
+ #2: etc... add your arenas.
+
