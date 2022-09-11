@@ -21,7 +21,7 @@ public final class Bunnymg extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new GameListener(this), this);
         Bukkit.getPluginManager().registerEvents(new ConnectListener(this), this);
 
-        getCommand("arena").setExecutor(new ArenaCommand());
+        getCommand("arena").setExecutor(new ArenaCommand(this));
 
     }
 
